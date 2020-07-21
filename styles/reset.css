@@ -1,0 +1,25 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body,
+h5,
+ul {
+  margin: 0px;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: normal;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

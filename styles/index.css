@@ -1,0 +1,41 @@
+/* 
+  seletor {
+    regra1: valor1;
+    .
+    .
+    .
+    regraN: valorN;
+  } 
+*/
+
+.header {
+  background-color: #f8f8f8;
+  color: #777777;
+}
+
+.header > .content {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header > .content > .links {
+  display: flex;
+}
+
+.header > .content > .links > li:hover {
+  color: #333333;
+}
+
+.header > .content > .links > li + li {
+  padding-left: 20px;
+}
+
+.container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
