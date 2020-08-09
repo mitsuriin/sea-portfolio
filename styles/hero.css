@@ -1,0 +1,26 @@
+.hero {
+  background-color: black;
+  color: #ffffff;
+}
+
+.hero > .content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(30px);
+}
+
+.hero > .content > h1 {
+  text-transform: capitalize;
+  padding-top: 20px;
+}
+
+.hero > .content > img {
+  padding: 20px;
+  border-radius: 50%;
+  margin-bottom: auto;
+}
+
+.hero > .content > P {
+  margin-top: -42px;
+}

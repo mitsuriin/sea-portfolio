@@ -1,0 +1,23 @@
+.header {
+  background-color: #f8f8f8;
+  color: #777777;
+}
+
+.header > .content {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header > .content > .links {
+  display: flex;
+}
+
+.header > .content > .links > li:hover {
+  color: #333333;
+}
+
+.header > .content > .links > li:not(:first-child) {
+  padding-left: 20px;
+}

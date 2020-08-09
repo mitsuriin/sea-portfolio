@@ -1,17 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body,
+h1,
 h5,
+p,
 ul {
   margin: 0px;
-}
-
-h5 {
-  font-size: 18px;
-  line-height: 20px;
-  font-weight: normal;
 }
 
 ul {
