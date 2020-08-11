@@ -2,6 +2,11 @@
   cursor: pointer;
 }
 
+.component-button:hover {
+  background: #65b2bb;
+  color: #fff;
+}
+
 .component-button--outlined {
   background-color: transparent;
   border: 1px solid;
@@ -10,9 +15,37 @@
   border-radius: 6px;
 }
 
+.component-button--medium {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.component-button--medium:hover {
+  border-color: #adadad;
+}
+
+.component-button--medium:active {
+  color: #333;
+  background-color: #e6e6e6;
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
 .component-button--large {
   font-size: 18px;
   line-height: 24px;
   font-weight: normal;
   padding: 10px 16px;
+}
+
+.component-button--large:hover {
+  border-color: #204d74;
+}
+
+.component-button--large:active {
+  color: #fff;
+  background-color: #204d74;
+  border-color: #122b40;
 }
