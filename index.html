@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/typography.css" />
     <link rel="stylesheet" href="./styles/layout.css" />
+    <link rel="stylesheet" href="./styles/components.css" />
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/hero.css" />
+    <link rel="stylesheet" href="./styles/presentation.css" />
   </head>
 
   <body>
     <header class="header">
-      <div class="container content">
+      <div class="layout-grid content">
         <h5>Me</h5>
         <ul class="links">
           <li>
@@ -31,23 +33,34 @@
 
     <section class="hero" id="who">
       <div class="content">
-        <h1>who am i?</h1>
-
+        <h2>who am i?</h2>
         <img
           src="./images/fish.jpg"
           width="600"
           height="600"
           alt="Peixe beta"
         />
-
-        <p>I'm a nomad</p>
+        <span class="caption">
+          I'm a nomad
+        </span>
       </div>
     </section>
 
-    <section id="what">
-      <h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. In, veniam.
-      </h1>
+    <section class="presentation" id="what">
+      <div class="layout-grid content">
+        <h1>Hello, world!</h1>
+        <p>
+          This is a template for a simple marketing or informational website. It
+          includes a large callout called a jumbotron and three supporting
+          pieces of content. Use it as a starting point to create something more
+          unique.
+        </p>
+        <button
+          class="component-button component-button--outlined component-button--large"
+        >
+          Learn more »
+        </button>
+      </div>
     </section>
   </body>
 </html>

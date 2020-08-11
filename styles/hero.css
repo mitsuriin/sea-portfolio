@@ -10,7 +10,7 @@
   transform: translateY(30px);
 }
 
-.hero > .content > h1 {
+.hero > .content > h2 {
   text-transform: capitalize;
   padding-top: 20px;
 }
@@ -21,6 +21,6 @@
   margin-bottom: auto;
 }
 
-.hero > .content > P {
+.hero > .content > .caption {
   margin-top: -42px;
 }

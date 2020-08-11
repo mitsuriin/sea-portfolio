@@ -1,0 +1,18 @@
+.component-button {
+  cursor: pointer;
+}
+
+.component-button--outlined {
+  background-color: transparent;
+  border: 1px solid;
+  color: black;
+  border-color: #65b2bb;
+  border-radius: 6px;
+}
+
+.component-button--large {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: normal;
+  padding: 10px 16px;
+}

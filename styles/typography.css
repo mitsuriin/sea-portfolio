@@ -1,4 +1,10 @@
 h1 {
+  font-size: 63px;
+  line-height: 69px;
+  font-weight: 500;
+}
+
+h2 {
   font-size: 36px;
   line-height: normal;
   font-weight: 500;
@@ -10,13 +16,25 @@ h5 {
   font-weight: normal;
 }
 
+.caption {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 200;
+}
+
 p {
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: normal;
+}
+
+.link {
   font-size: 14px;
   line-height: 20px;
   font-weight: normal;
 }
 
-.link {
+button {
   font-size: 14px;
   line-height: 20px;
   font-weight: normal;
